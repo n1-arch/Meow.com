@@ -1,0 +1,2129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway');
+
+$colorBlack: #000;
+$colorWhite: #f1f1f1;
+$transitionText: all.3s ease;
+
+@mixin ForText($color, $size, $family, $weight) {
+  color: $color;
+  font-size: $size;
+  font-family: $family;
+  weight: $weight;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+}
+
+.OneBlock {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: url("../img/MainImg.jpg") no-repeat center center;
+}
+
+.HeaderSite {
+  float: left;
+  width: 100%;
+  height: 128px;
+  background: none;
+
+  .HeaderSiteLogo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: none;
+
+    .HeaderSiteLogoImg {
+      float: left;
+      width: 25%;
+      height: 100%;
+      background: none;
+
+      img {
+        float: left;
+        width: 100%;
+        height: 100%;
+        background: none;
+      }
+    }
+
+    .HeaderSiteLogoText {
+      float: left;
+      width: 75%;
+      height: 100%;
+      background: none;
+
+      a {
+        float: left;
+        @include ForText(#000, 45px, 'Raleway', 300);
+        margin-top: 33px;
+        transition: $transitionText;
+
+        &:hover {
+          transform: scale(1.1);
+          transition: $transitionText;
+        }
+      }
+    }
+  }
+
+  .HeaderSiteMenu {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background: none;
+
+    .HeaderSiteMenuPage {
+      float: left;
+      width: 20%;
+      height: 100%;
+      background: none;
+
+      a {
+        float: left;
+        @include ForText($colorWhite, 25px, 'Montserrat', 300);
+        margin-top: 50px;
+        //text-align: center;
+        //margin-left: 30px;
+        transition: $transitionText;
+
+        &:hover {
+          border-radius: 5px;
+          border-bottom: 1px solid $colorWhite;
+          transition: $transitionText;
+        }
+      }
+    }
+  }
+}
+
+.AdwordsForum {
+  float: left;
+  width: 100%;
+  height: 400px;
+  background: none;
+
+  .AdwordsForumText {
+    float: left;
+    width: 90%;
+    height: 100%;
+    background: none;
+    margin-left: 5%;
+    //border-radius: 5px;
+    //border: 1px solid silver;
+    //opacity: 0.5;
+
+    h1 {
+      text-align: center;
+      @include ForText($colorWhite, 80px, 'Raleway', 300);
+      transition: $transitionText;
+
+      &:hover {
+        transform: scale(1.1);
+        transition: $transitionText;
+      }
+    }
+
+    /*a {
+      text-align: center;
+      @include ForText($colorWhite, 80px, 'Raleway', 300);
+      transition: $transitionText;
+
+      &:hover {
+        text-align: center;
+        transition: $transitionText;
+        transform: scale(1.2);
+      }
+    }*/
+
+    h3 {
+      text-align: center;
+      @include ForText($colorWhite, 60px, 'Raleway', 400);
+    }
+  }
+}
+
+.MainBtn {
+  float: left;
+  width: 100%;
+  height: 80px;
+  //margin-top: 20px;
+  background: none;//url("../img/ElementForWP.jpg") no-repeat center center;
+  transition: $transitionText;
+
+  &:hover {
+    transition: $transitionText;
+    transform: scale(0.9);
+  }
+
+  span {
+    //width: 100%;
+    text-align: center;
+    @include ForText($colorWhite, 40px, 'Raleway', 300);
+    //border: 1px solid silver;
+    //border-radius: 5px;
+    //height: 100%;
+    //padding: 5px;
+    //transform: scale(0.7);
+    //margin-top: 20%;
+  }
+}
+
+.HeaderBlock {
+  float: left;
+  width: 100%;
+  height: 60px;
+  background: none;
+
+  span {
+    text-align: center;
+    @include ForText($colorWhite, 40px, 'Raleway', 100);
+  }
+}
+
+.MainPart {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .MainPartSiteFunctions {
+    float: left;
+    width: 100%;
+    height: 200px;
+    background: #777;
+
+    .MainPartSiteFunctionsArticle {
+      float: left;
+      width: 25%;
+      height: 100%;
+      margin-left: 6%;
+      background: #989898;
+
+      .MainPartSiteFunctionsArticleHeader {
+        float: left;
+        width: 100%;
+        height: 30%;
+        background: none;
+
+        h1 {
+          text-align: center;
+          @include ForText($colorWhite, 35px, 'Raleway', 300);
+          margin-top: 10px;
+        }
+      }
+
+      .MainPartSiteFunctionsArticleBody {
+        float: left;
+        width: 100%;
+        height: 70%;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 20px, 'Montserrat', 300);
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+  .MainPartComputersWorks {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #111;
+
+    .MainPartComputersWorksAsides {
+      float: left;
+      width: 100%;
+      height: 100%;
+
+      .MainPartComputersWorksAsidesArt {
+        float: left;
+        margin-left: 5%;
+        padding: 3.333%;
+        width: 20%;
+        height: 100%;
+        background: url("../img/ElementForWP.jpg") no-repeat center center;
+        transition: $transitionText;
+
+        &:hover {
+          transition: $transitionText;
+          transform: scale(0.9);
+        }
+
+        .MainPartComputersWorksAsidesArtText {
+          float: left;
+          width: 100%;
+          height: 20%;
+          background: none;
+
+          span {
+            @include ForText($colorWhite, 30px, 'Raleway', 300);
+            text-align: center;
+          }
+        }
+
+        .MainPartComputersWorksAsidesArtImg {
+          float: left;
+          width: 100%;
+          height: 80%;
+
+          img {
+            float: left;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .MainPartPartnersSite {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #373737;
+
+    .MainPartPartnersSiteOurBlockPartners {
+      float: left;
+      width: 100%;
+      width: 100%;
+      background: none;
+
+      .MainPartPartnersSiteOurBlockPartnersAside {
+        float: left;
+        width: 22.5%;
+        margin-left: 5%;
+        padding: 2%;
+        height: 100%;
+        background: url("../img/ElementForPP.jpg") no-repeat center center;
+        transition: $transitionText;
+
+        &:hover {
+          transition: $transitionText;
+          transform: scale(0.9);
+        }
+
+        .MainPartPartnersSiteOurBlockPartnersAsideText {
+          float: left;
+          width: 100%;
+          height: 30%;
+          background: none;
+
+          span {
+            text-align: center;
+            @include ForText($colorWhite, 30px, 'Raleway', 300);
+          }
+        }
+
+        .MainPartPartnersSiteOurBlockPartnersAsideImg {
+          float: left;
+          width: 100%;
+          height: 70%;
+          background: none;
+
+          img {
+            float: left;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .MainPartFaqAd {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #2d2e30;
+
+    .MainPartFaqAdMainBlock {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: none;
+
+      .MainPartFaqAdMainBlockText {
+        float: left;
+        width: 100%;
+        height: 70%;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 45px, 'Montserrat', 300);
+        }
+      }
+
+      .MainPartFaqAdMainBlockArrow {
+        float: left;
+        width: 100%;
+        height: 30%;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 45px, 'Raleway', 300);
+        }
+      }
+    }
+  }
+
+  .MainPartMainSponsorRand {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .MainPartMainSponsorRandMainBlock {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: none;
+
+      .MainPartMainSponsorRandMainBlockTextRools {
+        float: left;
+        width: 100%;
+        height: 40%;
+        //padding: 1%;
+        background: #888e96;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 30px, 'Montserrat', 300);
+        }
+
+        .MainPartMainSponsorRandMainBlockTextRoolsArrow {
+          float: left;
+          width: 100%;
+          height: 20%;
+          //padding: 1%;
+          background: #63686d;
+
+          span {
+            text-align: center;
+            @include ForText($colorWhite, 40px, 'Raleway', 300);
+          }
+        }
+      }
+
+      .MainPartMainSponsorRandMainBlockTextBanner {
+        float: left;
+        width: 100%;
+        height: 40%;
+        //padding: 1%;
+        background: #888e96;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 40px, 'Raleway', none);
+        }
+      }
+    }
+  }
+
+  .MainPartAdwords {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .MainPartAdwordsCool {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #757677;
+
+      .MainPartAdwordsCoolText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 30px, 'Raleway', 300);
+        }
+      }
+
+      .MainPartAdwordsCoolArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 40px, 'Raleway', 300);
+        }
+      }
+    }
+  }
+
+  .MainPartMainBanner {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url("../img/ElementForMB.jpg") no-repeat center center;
+
+    .MainPartMainBannerH1Text {
+      float: left;
+      width: 100%;
+      height: 50%;
+      background: none;
+
+      span {
+        text-align: center;
+        @include ForText($colorWhite, 90px, 'Raleway', 300);
+      }
+    }
+
+    .MainPartMainBannerH2Text {
+      float: left;
+      width: 100%;
+      height: 50%;
+      background: none;
+
+      span {
+        text-align: center;
+        @include ForText($colorWhite, 60px, 'Montserrat', 300);
+      }
+    }
+  }
+}
+
+.MainFooter {
+  float: left;
+  width: 100%;
+  height: 128px;
+  background: #000;
+
+  .MainFooterLogo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: none;
+
+    .MainFooterLogoImg {
+      float: left;
+      width: 25%;
+      height: 100%;
+      background: none;
+
+      img {
+        float: left;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .MainFooterLogoText {
+      float: left;
+      width: 75%;
+      height: 100%;
+      background: none;
+
+      a {
+        text-align: center;
+        @include ForText($colorWhite, 30px, "Raleway", 300);
+        transition: $transitionText;
+
+        &:hover {
+          transition: $transitionText;
+          color: #777;
+        }
+      }
+    }
+  }
+
+  .MainFooterNetWorks {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background: none;
+
+    .MainFooterNetWorksAllNetWorks {
+      float: left;
+      width: 100%;
+      height: 100%;
+      background: none;
+
+      img {
+        float: right;
+        width: 7%;
+        height: 40%;
+        margin-top: 7%;
+        margin-left: 2%;
+        transition: $transitionText;
+
+        &:hover {
+          transition: $transitionText;
+          transform: scale(0.9);
+        }
+      }
+    }
+  }
+}
+
+.AboutMe {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .AboutMeInfo {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .AboutMeInfoSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #555;
+
+      .AboutMeInfoSpecialText {
+        float: left;
+        width: 100%;
+        height: 70%;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 30px, 'Montserrat', 300);
+        }
+      }
+
+      .AboutMeInfoSpecialArrow {
+        float: left;
+        width: 100%;
+        height: 30%;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 40px, 'Raleway', 300);
+        }
+      }
+    }
+  }
+
+  .AboutMeSoc {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #777;
+
+    .AboutMeSocNeed {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: none;
+
+      .AboutMeSocNeedImg {
+        float: left;
+        width: 95%;
+        padding: 2.5%;
+        height: 95%;
+        background: none;
+
+        img {
+          float: left;
+          width: 10%;
+          height: 30%;
+          margin-top: 4%;
+          margin-left: 12.5%;
+          transition: $transitionText;
+
+          &:hover {
+            transform: scale(0.9);
+            transition: $transitionText;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Technologes {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .TechologesAbout {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .TechnologesAboutNeedPart {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #4b4c4c;
+
+      .TechnologesAboutNeedPartText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 30px, 'Raleway', 300);
+        }
+      }
+
+      .TechnologesAboutNeedPartArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 40px, 'Raleway', 300);
+        }
+      }
+    }
+  }
+
+  .TechnologesPorfolio {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .TechnologesPorfolioMain {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #5f6363;
+
+      .TechnologesPorfolioMainWork {
+        float: left;
+        width: 23%;
+        margin-left: 6%;
+        padding: 1%;
+        background: url("../img/ElementForPOP.jpg") no-repeat center center;
+        height: 98%;
+        transition: $transitionText;
+
+        &:hover {
+          transition: $transitionText;
+          transform: scale(0.9);
+        }
+
+        .TechnologesPorfolioMainWorkText {
+          float: left;
+          width: 100%;
+          height: 30%;
+          background: none;
+
+          span {
+            text-align: center;
+            @include ForText($colorWhite, 30px, 'Raleway', 300);
+          }
+        }
+
+        .TechnologesPorfolioMainWorkImg {
+          float: left;
+          width: 100%;
+          height: 70%;
+
+          img {
+            float: left;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Adwords {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .AdwordsMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .AdwordsMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #6b6d70;
+
+      .AdwordsMainSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          float: left;
+          //text-align: center;
+          @include ForText($colorWhite, 30px, 'Raleway', 300);
+        }
+      }
+
+      .AdwordsMainSpecialArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 40px, 'Raleway', 300);
+        }
+      }
+    }
+  }
+}
+
+.Contacts {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .ContactsQuestions {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .ContactsQuestionsSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #898f99;
+
+      .ContactsQuestionsSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 30px, 'Raleway', 300);
+        }
+      }
+
+      .ContactsQuestionsSpecialArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 30px, 'Raleway', 300);
+        }
+      }
+    }
+  }
+
+  .ContactsSignIn {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .ContactsSignInNeed {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #76787a;
+
+      .ContactsSignInNeedText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 30px, 'Raleway', 300);
+        }
+      }
+
+      .ContactsSignInNeedArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 30px, 'Raleway', 300);
+        }
+      }
+    }
+  }
+
+  .ContactsRegister {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .ContactsRegisterSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #5e6266;
+
+      .ContactsRegisterSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 30px, 'Raleway', 300);
+        }
+      }
+
+      .ContactsRegisterSpecialArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 30px, 'Raleway', 300);
+        }
+      }
+    }
+  }
+
+  .ContactsFeedBack {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .ContactsFeedBackMain {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #898b8e;
+
+      .ContactsFeedBackMainSpecial {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        .ContactsFeedBackMainSpecialForm {
+          float: left;
+          width: 100%;
+          height: auto;
+          background: none;
+
+          .ContactsFeedBackMainSpecialFormPart {
+            float: left;
+            width: 50%;
+            height: auto;
+            background: none;
+
+            input {
+              float: left;
+              width: 80%;
+              height: 50px;
+              text-align: center;
+              @include ForText($colorWhite, 35px, 'Raleway', 300);
+              background: $colorBlack;
+              border: 1px solid silver;
+              border-radius: 5px;
+              transition: $transitionText;
+
+              &:focus {
+                transition: $transitionText;
+                transform: scale(0.9);
+                border-color: #c4c4c4;
+              }
+            }
+
+            textarea {
+              float: left;
+              width: 80%;
+              height: 100px;
+              text-align: center;
+              @include ForText($colorWhite, 35px, 'Raleway', 300);
+              background: $colorBlack;
+              border: 1px solid silver;
+              border-radius: 5px;
+              transition: $transitionText;
+
+              &:focus {
+                transition: $transitionText;
+                transform: scale(0.9);
+                border-color: #c4c4c4;
+              }
+            }
+          }
+
+          .ContactsFeedBackMainSpecialFormAllErrors {
+            float: left;
+            width: 48%;
+            height: auto;
+            padding: 1%;
+            background: $colorBlack;
+            border: 1px solid silver;
+            border-radius: 5px;
+            margin-left: 25%;
+            margin-top: 20px;
+
+            span {
+              text-align: center;
+              @include ForText($colorWhite, 35px, 'Raleway', 300);
+            }
+          }
+
+          .ContactsFeedBackMainSpecialFormBtn {
+            float: left;
+            width: 100%;
+            height: auto;
+            background: none;
+
+            input {
+              float: left;
+              width: 100%;
+              background: url('../img/ElementForFBP.jpg') no-repeat center center;
+              height: auto;
+              padding: 1%;
+              @include ForText($colorWhite, 35px, 'Raleway', 300);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.Success {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .SuccessMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .SuccessMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #7e7e7e;
+
+      .SuccessMainSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 35px, 'Raleway', 300);
+        }
+      }
+    }
+  }
+}
+
+.News {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .NewsMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .NewsMainSpecialBar {
+      float: left;
+      width: 100%;
+      height: 100px;
+      background: linear-gradient(90deg, rgba(50,198,207,1) 0%, rgba(87,54,195,1) 35%, rgba(172,8,236,1) 100%);
+
+      .NewsMainSpecialBarHREFS {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        height: 100%;
+        background: none;
+
+        a {
+          float: left;
+          @include ForText($colorWhite, 40px, 'Raleway', 300);
+          margin-top: 30px;
+          margin-left: 8%;
+          transition: $transitionText;
+
+          &:hover {
+            transform: scale(1.1);
+            transition: $transitionText;
+          }
+        }
+      }
+    }
+
+    .NewsMainSpecialBtn {
+      float: left;
+      width: 100%;
+      height: 100px;
+      background: none;
+
+      input {
+        text-align: center;
+        @include ForText($colorWhite, 45px, 'Montserrat', 300);
+        width: 100%;
+        height: 100px;
+        background: #5500ff;
+        transition: $transitionText;
+
+        &:hover {
+          transform: scale(0.9);
+          transition: $transitionText;
+        }
+      }
+    }
+
+    .NewsMainSpecialBtnAdd {
+      float: left;
+      width: 100%;
+      height: 100px;
+      transition: $transitionText;
+      background: #5500ff;
+      border: 1px solid silver;
+      box-sizing: border-box;
+
+      span {
+        text-align: center;
+        @include ForText($colorWhite, 45px, 'Montserrat', 300);
+        margin-top: 55px;
+        //position: absolute;
+        //top: 55px;
+      }
+
+      &:hover {
+        transform: scale(0.9);
+        transition: $transitionText;
+      }
+    }
+
+    .NewsMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: none;
+
+      .NewsMainSpecialArticle {
+        float: left;
+        width: 100%;
+        height: auto;
+
+        .NewsMainSpecialArticleTitle {
+          float: left;
+          width: 100%;
+          height: 60%;
+          background: none;
+
+          h1 {
+            text-align: center;
+            @include ForText($colorWhite, 60px, 'Raleway', 300);
+          }
+        }
+
+        /*.NewsMainSpecialArticleBody {
+          float: left;
+          width: 65%;
+          height: 100%;
+          background: none;
+
+          h3 {
+            text-align: center;
+            @include ForText($colorWhite, 25px, 'Montserrat', 300);
+          }
+        }*/
+
+        .NewsMainSpecialArticleBtn {
+          float: left;
+          width: 100%;
+          height: 40%;
+          background: none;
+
+          input {
+            text-align: center;
+            @include ForText($colorWhite, 45px, 'Montserrat', 300);
+            width: 100%;
+            height: 100px;
+            background: #5500ff;
+            transition: $transitionText;
+
+            &:hover {
+              transform: scale(0.9);
+              transition: $transitionText;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.Article {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: #3d3d3d;
+
+  .ArticleSpecial {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    background: #565656;
+
+    .ArticleSpecialTitle {
+      float: left;
+      width: 100%;
+      height: 20%;
+      background: #1d1d1d;
+
+      h1 {
+        text-align: center;
+        @include ForText($colorWhite, 45px, 'Raleway', 300);
+      }
+    }
+
+    .ArticleSpecialBody {
+      float: left;
+      width: 100%;
+      height: 50%;
+      background: none;
+
+      h3 {
+        text-align: center;
+        @include ForText($colorWhite, 55px, 'Montserrat', 300);
+      }
+    }
+
+    .ArticleSpecialDate {
+      float: left;
+      width: 100%;
+      height: 15%;
+      background: #999;
+
+      h4 {
+        text-align: center;
+        @include ForText($colorWhite, 35px, 'Raleway', 300);
+      }
+    }
+
+    .ArticleSpecialUser {
+      float: left;
+      width: 100%;
+      height: 15%;
+      background: #1d1d1d;
+
+      h5 {
+        text-align: center;
+        @include ForText($colorWhite, 35px, 'Raleway', 300);
+      }
+    }
+
+    .ArticleSpecialComments {
+      float: left;
+      width: 100%;
+      height: 100%;
+      background: #9c9c9c;
+
+      .ArticleSpecialCommentsInputs {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        height: 100%;
+        background: #010101;
+
+        input {
+          float: left;
+          width: 80%;
+          height: 50px;
+          margin-left: 10%;
+          margin-top: 10px;
+          text-align: center;
+          @include ForText($colorWhite, 35px, 'Raleway', 300);
+          background: $colorBlack;
+          border: 1px solid silver;
+          border-radius: 5px;
+          transition: $transitionText;
+
+          &:focus {
+            transition: $transitionText;
+            transform: scale(0.9);
+            border-color: #c4c4c4;
+          }
+        }
+
+        textarea {
+          float: left;
+          width: 80%;
+          height: 100px;
+          margin-left: 10%;
+          margin-top: 10px;
+          text-align: center;
+          @include ForText($colorWhite, 35px, 'Raleway', 300);
+          background: $colorBlack;
+          border: 1px solid silver;
+          border-radius: 5px;
+          transition: $transitionText;
+
+          &:focus {
+            transition: $transitionText;
+            transform: scale(0.9);
+            border-color: #c4c4c4;
+          }
+        }
+
+        .ArticleSpecialCommentsInputsBtn {
+          float: left;
+          width: 100%;
+          height: 100px;
+          background: none;
+          margin-bottom: 15px;
+
+          input {
+            text-align: center;
+            @include ForText($colorWhite, 45px, 'Montserrat', 300);
+            width: 100%;
+            height: 100px;
+            background: #5500ff;
+            margin-left: 0%;
+            transition: $transitionText;
+
+            &:hover {
+              transform: scale(0.9);
+              transition: $transitionText;
+            }
+          }
+        }
+      }
+
+      .ArticleSpecialCommentsBtn {
+        float: left;
+        width: 100%;
+        height: 100px;
+        background: none;
+
+        input {
+          text-align: center;
+          @include ForText($colorWhite, 45px, 'Montserrat', 300);
+          width: 100%;
+          height: 100px;
+          background: #5500ff;
+          transition: $transitionText;
+
+          &:hover {
+            transform: scale(0.9);
+            transition: $transitionText;
+          }
+        }
+      }
+
+      .ArticleSpecialCommentsBlock {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        .ArticleSpecialCommentsBlockComment {
+          float: left;
+          width: 98%;
+          height: auto;
+          padding: 1%;
+          background: #9d9d9d;
+
+          .ArticleSpecialCommentsBlockCommentUser {
+            float: left;
+            width: 100%;
+            height: 20%;
+            background: #888;
+
+            h3 {
+              text-align: center;
+              @include ForText($colorWhite, 35px, 'Raleway', 300);
+            }
+          }
+
+          .ArticleSpecialCommentsBlockCommentText {
+            float: left;
+            width: 100%;
+            height: 60%;
+            background: #555;
+
+            h4 {
+              text-align: center;
+              @include ForText($colorWhite, 30px, 'Montserrat', 300);
+            }
+          }
+
+          .ArticleSpecialCommentsBlockCommentDate {
+            float: left;
+            width: 100%;
+            height: 20%;
+            background: #111;
+
+            h5 {
+              text-align: center;
+              @include ForText($colorWhite, 25px, 'Raleway', 300);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.SignUp {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .SignUpMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .SignUpMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #333;
+
+      /*.SignUpMainSpecialUser {
+        float: left;
+        width: 98%;
+        height: auto;
+        background: #2d2d2d;
+        padding: 1%;
+        border-top: 1px solid silver;
+
+        .SignUpMainSpecialUserFL {
+          float: left;
+          width: 55%;
+          height: auto;
+          background: none;
+
+          p {
+            float: left;
+            margin-left: 10px;
+            @include ForText($colorWhite, 40px, 'Raleway', 300);
+          }
+        }
+
+        .SignUpMainSpecialUserBtn {
+          float: right;
+          width: 45%;
+          height: auto;
+          margin-top: 1%;
+          background: none;
+
+          input {
+            text-align: center;
+            @include ForText($colorWhite, 45px, 'Raleway', 300);
+            width: 100%;
+            height: 100%;
+            background: #5500ff;
+            transition: $transitionText;
+
+            &:hover {
+              transform: scale(0.9);
+              transition: $transitionText;
+            }
+          }
+        }
+      }
+
+      .SignUpMainSpecialHello {
+        float: left;
+        width: 60%;
+        margin-left: 20%;
+        height: auto;
+        background: #777;
+
+        h1 {
+          text-align: center;
+          @include ForText($colorWhite, 55px, 'Raleway', 300);
+        }
+      }*/
+
+      .SignUpMainSpecialInputs {
+        float: left;
+        width: 60%;
+        margin-left: 20%;
+        height: 100%;
+        background: #777;
+
+        input {
+          float: left;
+          width: 80%;
+          margin-left: 10%;
+          height: 50px;
+          text-align: center;
+          @include ForText($colorWhite, 35px, 'Raleway', 300);
+          background: $colorBlack;
+          border: 1px solid silver;
+          border-radius: 5px;
+          transition: $transitionText;
+
+          &:focus {
+            transition: $transitionText;
+            transform: scale(0.9);
+            border-color: #c4c4c4;
+          }
+        }
+      }
+    }
+
+    .SignUpMainBtn {
+      float: left;
+      width: 100%;
+      height: 100px;
+      background: none;
+
+      input {
+        text-align: center;
+        @include ForText($colorWhite, 45px, 'Raleway', 300);
+        width: 100%;
+        height: 100px;
+        background: #5500ff;
+        transition: $transitionText;
+
+        &:hover {
+          transform: scale(0.9);
+          transition: $transitionText;
+        }
+      }
+    }
+  }
+}
+
+.SignIn {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .SignInMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .SignInMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #7d7d7d;
+
+      /*.SignInMainSpecialHello {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        h1 {
+          text-align: center;
+          @include ForText($colorWhite, 55px, 'Raleway', 300);
+        }
+      }
+
+      .SignInMainSpecialUser {
+        float: left;
+        width: 98%;
+        height: auto;
+        background: #3d3d3d;
+        padding: 1%;
+        border-top: 1px solid silver;
+
+        .SignInMainSpecialUserFL {
+          float: left;
+          width: 50%;
+          height: auto;
+          background: none;
+
+          p {
+            float: left;
+            margin-left: 10px;
+            @include ForText($colorWhite, 40px, 'Raleway', 300);
+          }
+        }
+
+        .SignInMainSpecialUserBtn {
+          float: right;
+          width: 45%;
+          height: 100%;
+          background: none;
+
+          input {
+            text-align: center;
+            @include ForText($colorWhite, 45px, 'Raleway', 300);
+            width: 100%;
+            height: 80%;
+            background: #5500ff;
+            transition: $transitionText;
+
+            &:hover {
+              transform: scale(0.9);
+              transition: $transitionText;
+            }
+          }
+        }
+      }*/
+
+      .SignInMainSpecialInputs {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+        background: #4d4d4d;
+
+        .SignInMainSpecialInputsBtn {
+          float: left;
+          width: 100%;
+          height: 100px;
+          background: none;
+
+          input {
+            text-align: center;
+            @include ForText($colorWhite, 45px, 'Raleway', 300);
+            width: 80%;
+            height: 100px;
+            background: #5500ff;
+            transition: $transitionText;
+
+            &:hover {
+              transform: scale(0.9);
+              transition: $transitionText;
+            }
+          }
+        }
+
+        input {
+          float: left;
+          width: 80%;
+          margin-left: 10%;
+          height: 50px;
+          text-align: center;
+          @include ForText($colorWhite, 35px, 'Raleway', 300);
+          background: $colorBlack;
+          border: 1px solid silver;
+          border-radius: 5px;
+          transition: $transitionText;
+
+          &:focus {
+            transition: $transitionText;
+            transform: scale(0.9);
+            border-color: #c4c4c4;
+          }
+        }
+      }
+    }
+  }
+}
+
+.UserInterface {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .UserInterfaceMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .UserInterfaceMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #999;
+
+      .UserInterfaceMainSpecialUser {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        .UserInterfaceMainSpecialUserHeader {
+          float: left;
+          width: 100%;
+          height: auto;
+          background: #111;
+
+          h1 {
+            float: left;
+            margin-left: 10px;
+            @include ForText($colorWhite, 50px, 'Raleway', 300);
+          }
+        }
+
+        .UserInterfaceMainSpecialUserText {
+          float: left;
+          width: 100%;
+          height: auto;
+          background: none;
+
+          p {
+            float: left;
+            margin-left: 10px;
+            width: 97%;
+            padding: 1%;
+            height: 50px;
+            border-bottom: 1px solid silver;
+            @include ForText($colorWhite, 35px, 'Raleway', 300);
+          }
+        }
+
+        .UserInterfaceMainSpecialUserBtn {
+          float: left;
+          width: 100%;
+          height: 100px;
+          background: none;
+
+          input {
+            text-align: center;
+            @include ForText($colorWhite, 45px, 'Raleway', 300);
+            width: 100%;
+            height: 100px;
+            background: #5500ff;
+            transition: $transitionText;
+
+            &:hover {
+              transform: scale(0.9);
+              transition: $transitionText;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.AddArticle {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .AddArticleMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #898b8e;
+
+    .AddArticleMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: none;
+
+      .AddArticleMainSpecialForm {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        .AddArticleMainSpecialFormPart {
+          float: left;
+          width: 50%;
+          height: auto;
+          background: none;
+
+          input {
+            float: left;
+            width: 80%;
+            height: 50px;
+            text-align: center;
+            @include ForText($colorWhite, 35px, 'Raleway', 300);
+            background: $colorBlack;
+            border: 1px solid silver;
+            border-radius: 5px;
+            transition: $transitionText;
+
+            &:focus {
+              transition: $transitionText;
+              transform: scale(0.9);
+              border-color: #c4c4c4;
+            }
+          }
+
+          select {
+            float: left;
+            width: 80%;
+            height: 50px;
+            text-align: center;
+            @include ForText($colorWhite, 35px, 'Raleway', 300);
+            background: $colorBlack;
+            border: 1px solid silver;
+            border-radius: 5px;
+          }
+
+          textarea {
+            float: left;
+            width: 80%;
+            height: 100px;
+            text-align: center;
+            @include ForText($colorWhite, 35px, 'Raleway', 300);
+            background: $colorBlack;
+            border: 1px solid silver;
+            border-radius: 5px;
+            transition: $transitionText;
+
+            &:focus {
+              transition: $transitionText;
+              transform: scale(0.9);
+              border-color: #c4c4c4;
+            }
+          }
+        }
+
+        .AddArticleMainSpecialFormBtn {
+          float: left;
+          width: 100%;
+          height: auto;
+          background: none;
+          transition: $transitionText;
+
+          input {
+            float: left;
+            width: 100%;
+            background: url('../img/ElementForAAP.jpg') no-repeat center center;
+            height: auto;
+            padding: 1%;
+            @include ForText($colorWhite, 35px, 'Raleway', 300);
+          }
+
+          &:hover {
+            transition: $transitionText;
+            transform: scale(0.9);
+          }
+        }
+      }
+    }
+  }
+}
+
+
+.Success2 {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .Success2Main {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .Success2MainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #7e7e7e;
+
+      .Success2MainSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 35px, 'Raleway', 300);
+        }
+      }
+
+      .Success2MainSpecialBtn {
+        float: left;
+        width: 100%;
+        height: 100px;
+        transition: $transitionText;
+        background: #5500ff;
+        border: 1px solid silver;
+        box-sizing: border-box;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 45px, 'Montserrat', 300);
+          margin-top: 55px;
+        }
+
+        &:hover {
+          transform: scale(0.9);
+          transition: $transitionText;
+        }
+      }
+    }
+  }
+}
+
+
+.AllUsers {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .AllUsersMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .AllUsersMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #7e8e9e;
+
+      .AllUsersMainSpecialUsers {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        .AllUsersMainSpecialUsersHello {
+          float: left;
+          width: 100%;
+          height: auto;
+          background: none;
+
+          h1 {
+            text-align: center;
+            @include ForText($colorWhite, 55px, 'Raleway', 300);
+          }
+        }
+
+        .AllUsersMainSpecialUsersUser {
+          float: left;
+          width: 100%;
+          height: 100px;
+          background: #3d3d3d;
+          //padding: 1%;
+          border-top: 1px solid silver;
+
+          .AllUsersMainSpecialUsersUserIFL {
+            float: left;
+            width: 50%;
+            height: 100%;
+            background: none;
+
+            img {
+              float: left;
+              height: 100%;
+              width: 100px;
+            }
+
+            p {
+              float: left;
+              margin-left: 10px;
+              margin-top: 25px;
+              @include ForText($colorWhite, 40px, 'Raleway', 300);
+            }
+          }
+
+          .AllUsersMainSpecialUsersUserBtn {
+            float: right;
+            width: 45%;
+            height: 100%;
+            background: none;
+            //margin-top: 25px;
+
+            input {
+              text-align: center;
+              @include ForText($colorWhite, 45px, 'Raleway', 300);
+              width: 100%;
+              height: 100%;
+              background: #5500ff;
+              transition: $transitionText;
+
+              &:hover {
+                transform: scale(0.9);
+                transition: $transitionText;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.ChangeProfile {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .ChangeProfileMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .ChangeProfileMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #3c3e3d;
+
+      .ChangeProfileMainSpecialChangeForm {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        .ChangeProfileMainSpecialChangeFormInputs {
+          float: left;
+          width: 80%;
+          margin-left: 10%;
+          height: auto;
+          background: #9d9d9d;
+
+          input {
+            float: left;
+            width: 80%;
+            height: 50px;
+            margin-left: 10%;
+            text-align: center;
+            @include ForText($colorWhite, 35px, 'Raleway', 300);
+            background: $colorBlack;
+            border: 1px solid silver;
+            border-radius: 5px;
+            transition: $transitionText;
+
+            &:focus {
+              transition: $transitionText;
+              transform: scale(0.9);
+              border-color: #c4c4c4;
+            }
+          }
+        }
+
+        .ChangeProfileMainSpecialChangeFormBtn {
+          float: right;
+          width: 100%;
+          height: 100px;
+          background: none;
+
+          input {
+            text-align: center;
+            @include ForText($colorWhite, 45px, 'Raleway', 300);
+            width: 100%;
+            height: 100%;
+            background: #5500ff;
+            transition: $transitionText;
+
+            &:hover {
+              transform: scale(0.9);
+              transition: $transitionText;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.Success3 {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none;
+
+  .Success3Main {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none;
+
+    .Success3MainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #7e7e7e;
+
+      .Success3MainSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 35px, 'Raleway', 300);
+        }
+      }
+
+      .Success3MainSpecialBtn {
+        float: left;
+        width: 100%;
+        height: 100px;
+        transition: $transitionText;
+        background: #5500ff;
+        border: 1px solid silver;
+        box-sizing: border-box;
+
+        span {
+          text-align: center;
+          @include ForText($colorWhite, 45px, 'Montserrat', 300);
+          margin-top: 55px;
+        }
+
+        &:hover {
+          transform: scale(0.9);
+          transition: $transitionText;
+        }
+      }
+    }
+  }
+}

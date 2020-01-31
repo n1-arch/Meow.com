@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^http://localhost/Meow/$ Meow.com/php/index.php
+
+AddDefaultCharset UTF-8

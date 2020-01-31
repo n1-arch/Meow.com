@@ -1,0 +1,1968 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none; }
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1; }
+
+.OneBlock {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: url("../img/MainImg.jpg") no-repeat center center; }
+
+.HeaderSite {
+  float: left;
+  width: 100%;
+  height: 128px;
+  background: none; }
+  .HeaderSite .HeaderSiteLogo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: none; }
+    .HeaderSite .HeaderSiteLogo .HeaderSiteLogoImg {
+      float: left;
+      width: 25%;
+      height: 100%;
+      background: none; }
+      .HeaderSite .HeaderSiteLogo .HeaderSiteLogoImg img {
+        float: left;
+        width: 100%;
+        height: 100%;
+        background: none; }
+    .HeaderSite .HeaderSiteLogo .HeaderSiteLogoText {
+      float: left;
+      width: 75%;
+      height: 100%;
+      background: none; }
+      .HeaderSite .HeaderSiteLogo .HeaderSiteLogoText a {
+        float: left;
+        color: #000;
+        font-size: 45px;
+        font-family: "Raleway";
+        weight: 300;
+        margin-top: 33px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .HeaderSite .HeaderSiteLogo .HeaderSiteLogoText a:hover {
+          -webkit-transform: scale(1.1);
+          -ms-transform: scale(1.1);
+          transform: scale(1.1);
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+  .HeaderSite .HeaderSiteMenu {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background: none; }
+    .HeaderSite .HeaderSiteMenu .HeaderSiteMenuPage {
+      float: left;
+      width: 20%;
+      height: 100%;
+      background: none; }
+      .HeaderSite .HeaderSiteMenu .HeaderSiteMenuPage a {
+        float: left;
+        color: #f1f1f1;
+        font-size: 25px;
+        font-family: "Montserrat";
+        weight: 300;
+        margin-top: 50px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .HeaderSite .HeaderSiteMenu .HeaderSiteMenuPage a:hover {
+          border-radius: 5px;
+          border-bottom: 1px solid #f1f1f1;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+
+.AdwordsForum {
+  float: left;
+  width: 100%;
+  height: 400px;
+  background: none; }
+  .AdwordsForum .AdwordsForumText {
+    float: left;
+    width: 90%;
+    height: 100%;
+    background: none;
+    margin-left: 5%;
+    /*a {
+      text-align: center;
+      @include ForText($colorWhite, 80px, 'Raleway', 300);
+      transition: $transitionText;
+
+      &:hover {
+        text-align: center;
+        transition: $transitionText;
+        transform: scale(1.2);
+      }
+    }*/ }
+    .AdwordsForum .AdwordsForumText h1 {
+      text-align: center;
+      color: #f1f1f1;
+      font-size: 80px;
+      font-family: "Raleway";
+      weight: 300;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease; }
+      .AdwordsForum .AdwordsForumText h1:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+    .AdwordsForum .AdwordsForumText h3 {
+      text-align: center;
+      color: #f1f1f1;
+      font-size: 60px;
+      font-family: "Raleway";
+      weight: 400; }
+
+.MainBtn {
+  float: left;
+  width: 100%;
+  height: 80px;
+  background: none;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .MainBtn:hover {
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9); }
+  .MainBtn span {
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-family: "Raleway";
+    weight: 300; }
+
+.HeaderBlock {
+  float: left;
+  width: 100%;
+  height: 60px;
+  background: none; }
+  .HeaderBlock span {
+    text-align: center;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-family: "Raleway";
+    weight: 100; }
+
+.MainPart {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .MainPart .MainPartSiteFunctions {
+    float: left;
+    width: 100%;
+    height: 200px;
+    background: #777; }
+    .MainPart .MainPartSiteFunctions .MainPartSiteFunctionsArticle {
+      float: left;
+      width: 25%;
+      height: 100%;
+      margin-left: 6%;
+      background: #989898; }
+      .MainPart .MainPartSiteFunctions .MainPartSiteFunctionsArticle .MainPartSiteFunctionsArticleHeader {
+        float: left;
+        width: 100%;
+        height: 30%;
+        background: none; }
+        .MainPart .MainPartSiteFunctions .MainPartSiteFunctionsArticle .MainPartSiteFunctionsArticleHeader h1 {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 35px;
+          font-family: "Raleway";
+          weight: 300;
+          margin-top: 10px; }
+      .MainPart .MainPartSiteFunctions .MainPartSiteFunctionsArticle .MainPartSiteFunctionsArticleBody {
+        float: left;
+        width: 100%;
+        height: 70%;
+        background: none; }
+        .MainPart .MainPartSiteFunctions .MainPartSiteFunctionsArticle .MainPartSiteFunctionsArticleBody span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 20px;
+          font-family: "Montserrat";
+          weight: 300;
+          margin-top: 10px; }
+  .MainPart .MainPartComputersWorks {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #111; }
+    .MainPart .MainPartComputersWorks .MainPartComputersWorksAsides {
+      float: left;
+      width: 100%;
+      height: 100%; }
+      .MainPart .MainPartComputersWorks .MainPartComputersWorksAsides .MainPartComputersWorksAsidesArt {
+        float: left;
+        margin-left: 5%;
+        padding: 3.333%;
+        width: 20%;
+        height: 100%;
+        background: url("../img/ElementForWP.jpg") no-repeat center center;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .MainPart .MainPartComputersWorks .MainPartComputersWorksAsides .MainPartComputersWorksAsidesArt:hover {
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9); }
+        .MainPart .MainPartComputersWorks .MainPartComputersWorksAsides .MainPartComputersWorksAsidesArt .MainPartComputersWorksAsidesArtText {
+          float: left;
+          width: 100%;
+          height: 20%;
+          background: none; }
+          .MainPart .MainPartComputersWorks .MainPartComputersWorksAsides .MainPartComputersWorksAsidesArt .MainPartComputersWorksAsidesArtText span {
+            color: #f1f1f1;
+            font-size: 30px;
+            font-family: "Raleway";
+            weight: 300;
+            text-align: center; }
+        .MainPart .MainPartComputersWorks .MainPartComputersWorksAsides .MainPartComputersWorksAsidesArt .MainPartComputersWorksAsidesArtImg {
+          float: left;
+          width: 100%;
+          height: 80%; }
+          .MainPart .MainPartComputersWorks .MainPartComputersWorksAsides .MainPartComputersWorksAsidesArt .MainPartComputersWorksAsidesArtImg img {
+            float: left;
+            width: 100%;
+            height: 100%; }
+  .MainPart .MainPartPartnersSite {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #373737; }
+    .MainPart .MainPartPartnersSite .MainPartPartnersSiteOurBlockPartners {
+      float: left;
+      width: 100%;
+      width: 100%;
+      background: none; }
+      .MainPart .MainPartPartnersSite .MainPartPartnersSiteOurBlockPartners .MainPartPartnersSiteOurBlockPartnersAside {
+        float: left;
+        width: 22.5%;
+        margin-left: 5%;
+        padding: 2%;
+        height: 100%;
+        background: url("../img/ElementForPP.jpg") no-repeat center center;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .MainPart .MainPartPartnersSite .MainPartPartnersSiteOurBlockPartners .MainPartPartnersSiteOurBlockPartnersAside:hover {
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9); }
+        .MainPart .MainPartPartnersSite .MainPartPartnersSiteOurBlockPartners .MainPartPartnersSiteOurBlockPartnersAside .MainPartPartnersSiteOurBlockPartnersAsideText {
+          float: left;
+          width: 100%;
+          height: 30%;
+          background: none; }
+          .MainPart .MainPartPartnersSite .MainPartPartnersSiteOurBlockPartners .MainPartPartnersSiteOurBlockPartnersAside .MainPartPartnersSiteOurBlockPartnersAsideText span {
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 30px;
+            font-family: "Raleway";
+            weight: 300; }
+        .MainPart .MainPartPartnersSite .MainPartPartnersSiteOurBlockPartners .MainPartPartnersSiteOurBlockPartnersAside .MainPartPartnersSiteOurBlockPartnersAsideImg {
+          float: left;
+          width: 100%;
+          height: 70%;
+          background: none; }
+          .MainPart .MainPartPartnersSite .MainPartPartnersSiteOurBlockPartners .MainPartPartnersSiteOurBlockPartnersAside .MainPartPartnersSiteOurBlockPartnersAsideImg img {
+            float: left;
+            width: 100%;
+            height: 100%; }
+  .MainPart .MainPartFaqAd {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #2d2e30; }
+    .MainPart .MainPartFaqAd .MainPartFaqAdMainBlock {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: none; }
+      .MainPart .MainPartFaqAd .MainPartFaqAdMainBlock .MainPartFaqAdMainBlockText {
+        float: left;
+        width: 100%;
+        height: 70%;
+        background: none; }
+        .MainPart .MainPartFaqAd .MainPartFaqAdMainBlock .MainPartFaqAdMainBlockText span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 45px;
+          font-family: "Montserrat";
+          weight: 300; }
+      .MainPart .MainPartFaqAd .MainPartFaqAdMainBlock .MainPartFaqAdMainBlockArrow {
+        float: left;
+        width: 100%;
+        height: 30%;
+        background: none; }
+        .MainPart .MainPartFaqAd .MainPartFaqAdMainBlock .MainPartFaqAdMainBlockArrow span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 45px;
+          font-family: "Raleway";
+          weight: 300; }
+  .MainPart .MainPartMainSponsorRand {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .MainPart .MainPartMainSponsorRand .MainPartMainSponsorRandMainBlock {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: none; }
+      .MainPart .MainPartMainSponsorRand .MainPartMainSponsorRandMainBlock .MainPartMainSponsorRandMainBlockTextRools {
+        float: left;
+        width: 100%;
+        height: 40%;
+        background: #888e96; }
+        .MainPart .MainPartMainSponsorRand .MainPartMainSponsorRandMainBlock .MainPartMainSponsorRandMainBlockTextRools span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Montserrat";
+          weight: 300; }
+        .MainPart .MainPartMainSponsorRand .MainPartMainSponsorRandMainBlock .MainPartMainSponsorRandMainBlockTextRools .MainPartMainSponsorRandMainBlockTextRoolsArrow {
+          float: left;
+          width: 100%;
+          height: 20%;
+          background: #63686d; }
+          .MainPart .MainPartMainSponsorRand .MainPartMainSponsorRandMainBlock .MainPartMainSponsorRandMainBlockTextRools .MainPartMainSponsorRandMainBlockTextRoolsArrow span {
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-family: "Raleway";
+            weight: 300; }
+      .MainPart .MainPartMainSponsorRand .MainPartMainSponsorRandMainBlock .MainPartMainSponsorRandMainBlockTextBanner {
+        float: left;
+        width: 100%;
+        height: 40%;
+        background: #888e96; }
+        .MainPart .MainPartMainSponsorRand .MainPartMainSponsorRandMainBlock .MainPartMainSponsorRandMainBlockTextBanner span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-family: "Raleway";
+          weight: none; }
+  .MainPart .MainPartAdwords {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .MainPart .MainPartAdwords .MainPartAdwordsCool {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #757677; }
+      .MainPart .MainPartAdwords .MainPartAdwordsCool .MainPartAdwordsCoolText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .MainPart .MainPartAdwords .MainPartAdwordsCool .MainPartAdwordsCoolText span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Raleway";
+          weight: 300; }
+      .MainPart .MainPartAdwords .MainPartAdwordsCool .MainPartAdwordsCoolArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .MainPart .MainPartAdwords .MainPartAdwordsCool .MainPartAdwordsCoolArrow span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-family: "Raleway";
+          weight: 300; }
+  .MainPart .MainPartMainBanner {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background: url("../img/ElementForMB.jpg") no-repeat center center; }
+    .MainPart .MainPartMainBanner .MainPartMainBannerH1Text {
+      float: left;
+      width: 100%;
+      height: 50%;
+      background: none; }
+      .MainPart .MainPartMainBanner .MainPartMainBannerH1Text span {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 90px;
+        font-family: "Raleway";
+        weight: 300; }
+    .MainPart .MainPartMainBanner .MainPartMainBannerH2Text {
+      float: left;
+      width: 100%;
+      height: 50%;
+      background: none; }
+      .MainPart .MainPartMainBanner .MainPartMainBannerH2Text span {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 60px;
+        font-family: "Montserrat";
+        weight: 300; }
+
+.MainFooter {
+  float: left;
+  width: 100%;
+  height: 128px;
+  background: #000; }
+  .MainFooter .MainFooterLogo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background: none; }
+    .MainFooter .MainFooterLogo .MainFooterLogoImg {
+      float: left;
+      width: 25%;
+      height: 100%;
+      background: none; }
+      .MainFooter .MainFooterLogo .MainFooterLogoImg img {
+        float: left;
+        width: 100%;
+        height: 100%; }
+    .MainFooter .MainFooterLogo .MainFooterLogoText {
+      float: left;
+      width: 75%;
+      height: 100%;
+      background: none; }
+      .MainFooter .MainFooterLogo .MainFooterLogoText a {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 30px;
+        font-family: "Raleway";
+        weight: 300;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .MainFooter .MainFooterLogo .MainFooterLogoText a:hover {
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          color: #777; }
+  .MainFooter .MainFooterNetWorks {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background: none; }
+    .MainFooter .MainFooterNetWorks .MainFooterNetWorksAllNetWorks {
+      float: left;
+      width: 100%;
+      height: 100%;
+      background: none; }
+      .MainFooter .MainFooterNetWorks .MainFooterNetWorksAllNetWorks img {
+        float: right;
+        width: 7%;
+        height: 40%;
+        margin-top: 7%;
+        margin-left: 2%;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .MainFooter .MainFooterNetWorks .MainFooterNetWorksAllNetWorks img:hover {
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9); }
+
+.AboutMe {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .AboutMe .AboutMeInfo {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .AboutMe .AboutMeInfo .AboutMeInfoSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #555; }
+      .AboutMe .AboutMeInfo .AboutMeInfoSpecial .AboutMeInfoSpecialText {
+        float: left;
+        width: 100%;
+        height: 70%;
+        background: none; }
+        .AboutMe .AboutMeInfo .AboutMeInfoSpecial .AboutMeInfoSpecialText span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Montserrat";
+          weight: 300; }
+      .AboutMe .AboutMeInfo .AboutMeInfoSpecial .AboutMeInfoSpecialArrow {
+        float: left;
+        width: 100%;
+        height: 30%;
+        background: none; }
+        .AboutMe .AboutMeInfo .AboutMeInfoSpecial .AboutMeInfoSpecialArrow span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-family: "Raleway";
+          weight: 300; }
+  .AboutMe .AboutMeSoc {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #777; }
+    .AboutMe .AboutMeSoc .AboutMeSocNeed {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: none; }
+      .AboutMe .AboutMeSoc .AboutMeSocNeed .AboutMeSocNeedImg {
+        float: left;
+        width: 95%;
+        padding: 2.5%;
+        height: 95%;
+        background: none; }
+        .AboutMe .AboutMeSoc .AboutMeSocNeed .AboutMeSocNeedImg img {
+          float: left;
+          width: 10%;
+          height: 30%;
+          margin-top: 4%;
+          margin-left: 12.5%;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .AboutMe .AboutMeSoc .AboutMeSocNeed .AboutMeSocNeedImg img:hover {
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+
+.Technologes {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .Technologes .TechologesAbout {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .Technologes .TechologesAbout .TechnologesAboutNeedPart {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #4b4c4c; }
+      .Technologes .TechologesAbout .TechnologesAboutNeedPart .TechnologesAboutNeedPartText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Technologes .TechologesAbout .TechnologesAboutNeedPart .TechnologesAboutNeedPartText span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Raleway";
+          weight: 300; }
+      .Technologes .TechologesAbout .TechnologesAboutNeedPart .TechnologesAboutNeedPartArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Technologes .TechologesAbout .TechnologesAboutNeedPart .TechnologesAboutNeedPartArrow span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-family: "Raleway";
+          weight: 300; }
+  .Technologes .TechnologesPorfolio {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .Technologes .TechnologesPorfolio .TechnologesPorfolioMain {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #5f6363; }
+      .Technologes .TechnologesPorfolio .TechnologesPorfolioMain .TechnologesPorfolioMainWork {
+        float: left;
+        width: 23%;
+        margin-left: 6%;
+        padding: 1%;
+        background: url("../img/ElementForPOP.jpg") no-repeat center center;
+        height: 98%;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .Technologes .TechnologesPorfolio .TechnologesPorfolioMain .TechnologesPorfolioMainWork:hover {
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9); }
+        .Technologes .TechnologesPorfolio .TechnologesPorfolioMain .TechnologesPorfolioMainWork .TechnologesPorfolioMainWorkText {
+          float: left;
+          width: 100%;
+          height: 30%;
+          background: none; }
+          .Technologes .TechnologesPorfolio .TechnologesPorfolioMain .TechnologesPorfolioMainWork .TechnologesPorfolioMainWorkText span {
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 30px;
+            font-family: "Raleway";
+            weight: 300; }
+        .Technologes .TechnologesPorfolio .TechnologesPorfolioMain .TechnologesPorfolioMainWork .TechnologesPorfolioMainWorkImg {
+          float: left;
+          width: 100%;
+          height: 70%; }
+          .Technologes .TechnologesPorfolio .TechnologesPorfolioMain .TechnologesPorfolioMainWork .TechnologesPorfolioMainWorkImg img {
+            float: left;
+            width: 100%;
+            height: 100%; }
+
+.Adwords {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .Adwords .AdwordsMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .Adwords .AdwordsMain .AdwordsMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #6b6d70; }
+      .Adwords .AdwordsMain .AdwordsMainSpecial .AdwordsMainSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Adwords .AdwordsMain .AdwordsMainSpecial .AdwordsMainSpecialText span {
+          float: left;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Raleway";
+          weight: 300; }
+      .Adwords .AdwordsMain .AdwordsMainSpecial .AdwordsMainSpecialArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Adwords .AdwordsMain .AdwordsMainSpecial .AdwordsMainSpecialArrow span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-family: "Raleway";
+          weight: 300; }
+
+.Contacts {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .Contacts .ContactsQuestions {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .Contacts .ContactsQuestions .ContactsQuestionsSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #898f99; }
+      .Contacts .ContactsQuestions .ContactsQuestionsSpecial .ContactsQuestionsSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Contacts .ContactsQuestions .ContactsQuestionsSpecial .ContactsQuestionsSpecialText span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Raleway";
+          weight: 300; }
+      .Contacts .ContactsQuestions .ContactsQuestionsSpecial .ContactsQuestionsSpecialArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Contacts .ContactsQuestions .ContactsQuestionsSpecial .ContactsQuestionsSpecialArrow span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Raleway";
+          weight: 300; }
+  .Contacts .ContactsSignIn {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .Contacts .ContactsSignIn .ContactsSignInNeed {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #76787a; }
+      .Contacts .ContactsSignIn .ContactsSignInNeed .ContactsSignInNeedText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Contacts .ContactsSignIn .ContactsSignInNeed .ContactsSignInNeedText span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Raleway";
+          weight: 300; }
+      .Contacts .ContactsSignIn .ContactsSignInNeed .ContactsSignInNeedArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Contacts .ContactsSignIn .ContactsSignInNeed .ContactsSignInNeedArrow span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Raleway";
+          weight: 300; }
+  .Contacts .ContactsRegister {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .Contacts .ContactsRegister .ContactsRegisterSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #5e6266; }
+      .Contacts .ContactsRegister .ContactsRegisterSpecial .ContactsRegisterSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Contacts .ContactsRegister .ContactsRegisterSpecial .ContactsRegisterSpecialText span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Raleway";
+          weight: 300; }
+      .Contacts .ContactsRegister .ContactsRegisterSpecial .ContactsRegisterSpecialArrow {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Contacts .ContactsRegister .ContactsRegisterSpecial .ContactsRegisterSpecialArrow span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 30px;
+          font-family: "Raleway";
+          weight: 300; }
+  .Contacts .ContactsFeedBack {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .Contacts .ContactsFeedBack .ContactsFeedBackMain {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #898b8e; }
+      .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial .ContactsFeedBackMainSpecialForm {
+          float: left;
+          width: 100%;
+          height: auto;
+          background: none; }
+          .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial .ContactsFeedBackMainSpecialForm .ContactsFeedBackMainSpecialFormPart {
+            float: left;
+            width: 50%;
+            height: auto;
+            background: none; }
+            .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial .ContactsFeedBackMainSpecialForm .ContactsFeedBackMainSpecialFormPart input {
+              float: left;
+              width: 80%;
+              height: 50px;
+              text-align: center;
+              color: #f1f1f1;
+              font-size: 35px;
+              font-family: "Raleway";
+              weight: 300;
+              background: #000;
+              border: 1px solid silver;
+              border-radius: 5px;
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease; }
+              .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial .ContactsFeedBackMainSpecialForm .ContactsFeedBackMainSpecialFormPart input:focus {
+                -webkit-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+                -webkit-transform: scale(0.9);
+                -ms-transform: scale(0.9);
+                transform: scale(0.9);
+                border-color: #c4c4c4; }
+            .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial .ContactsFeedBackMainSpecialForm .ContactsFeedBackMainSpecialFormPart textarea {
+              float: left;
+              width: 80%;
+              height: 100px;
+              text-align: center;
+              color: #f1f1f1;
+              font-size: 35px;
+              font-family: "Raleway";
+              weight: 300;
+              background: #000;
+              border: 1px solid silver;
+              border-radius: 5px;
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease; }
+              .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial .ContactsFeedBackMainSpecialForm .ContactsFeedBackMainSpecialFormPart textarea:focus {
+                -webkit-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+                -webkit-transform: scale(0.9);
+                -ms-transform: scale(0.9);
+                transform: scale(0.9);
+                border-color: #c4c4c4; }
+          .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial .ContactsFeedBackMainSpecialForm .ContactsFeedBackMainSpecialFormAllErrors {
+            float: left;
+            width: 48%;
+            height: auto;
+            padding: 1%;
+            background: #000;
+            border: 1px solid silver;
+            border-radius: 5px;
+            margin-left: 25%;
+            margin-top: 20px; }
+            .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial .ContactsFeedBackMainSpecialForm .ContactsFeedBackMainSpecialFormAllErrors span {
+              text-align: center;
+              color: #f1f1f1;
+              font-size: 35px;
+              font-family: "Raleway";
+              weight: 300; }
+          .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial .ContactsFeedBackMainSpecialForm .ContactsFeedBackMainSpecialFormBtn {
+            float: left;
+            width: 100%;
+            height: auto;
+            background: none; }
+            .Contacts .ContactsFeedBack .ContactsFeedBackMain .ContactsFeedBackMainSpecial .ContactsFeedBackMainSpecialForm .ContactsFeedBackMainSpecialFormBtn input {
+              float: left;
+              width: 100%;
+              background: url("../img/ElementForFBP.jpg") no-repeat center center;
+              height: auto;
+              padding: 1%;
+              color: #f1f1f1;
+              font-size: 35px;
+              font-family: "Raleway";
+              weight: 300; }
+
+.Success {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .Success .SuccessMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .Success .SuccessMain .SuccessMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #7e7e7e; }
+      .Success .SuccessMain .SuccessMainSpecial .SuccessMainSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Success .SuccessMain .SuccessMainSpecial .SuccessMainSpecialText span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 35px;
+          font-family: "Raleway";
+          weight: 300; }
+
+.News {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .News .NewsMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .News .NewsMain .NewsMainSpecialBar {
+      float: left;
+      width: 100%;
+      height: 100px;
+      background: -webkit-gradient(linear, left top, right top, from(#32c6cf), color-stop(35%, #5736c3), to(#ac08ec));
+      background: -webkit-linear-gradient(left, #32c6cf 0%, #5736c3 35%, #ac08ec 100%);
+      background: -o-linear-gradient(left, #32c6cf 0%, #5736c3 35%, #ac08ec 100%);
+      background: linear-gradient(90deg, #32c6cf 0%, #5736c3 35%, #ac08ec 100%); }
+      .News .NewsMain .NewsMainSpecialBar .NewsMainSpecialBarHREFS {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        height: 100%;
+        background: none; }
+        .News .NewsMain .NewsMainSpecialBar .NewsMainSpecialBarHREFS a {
+          float: left;
+          color: #f1f1f1;
+          font-size: 40px;
+          font-family: "Raleway";
+          weight: 300;
+          margin-top: 30px;
+          margin-left: 8%;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .News .NewsMain .NewsMainSpecialBar .NewsMainSpecialBarHREFS a:hover {
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+    .News .NewsMain .NewsMainSpecialBtn {
+      float: left;
+      width: 100%;
+      height: 100px;
+      background: none; }
+      .News .NewsMain .NewsMainSpecialBtn input {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 45px;
+        font-family: "Montserrat";
+        weight: 300;
+        width: 100%;
+        height: 100px;
+        background: #5500ff;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .News .NewsMain .NewsMainSpecialBtn input:hover {
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+    .News .NewsMain .NewsMainSpecialBtnAdd {
+      float: left;
+      width: 100%;
+      height: 100px;
+      -webkit-transition: all 0.3s ease;
+      -o-transition: all 0.3s ease;
+      transition: all 0.3s ease;
+      background: #5500ff;
+      border: 1px solid silver;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+      .News .NewsMain .NewsMainSpecialBtnAdd span {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 45px;
+        font-family: "Montserrat";
+        weight: 300;
+        margin-top: 55px; }
+      .News .NewsMain .NewsMainSpecialBtnAdd:hover {
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+    .News .NewsMain .NewsMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: none; }
+      .News .NewsMain .NewsMainSpecial .NewsMainSpecialArticle {
+        float: left;
+        width: 100%;
+        height: auto;
+        /*.NewsMainSpecialArticleBody {
+          float: left;
+          width: 65%;
+          height: 100%;
+          background: none;
+
+          h3 {
+            text-align: center;
+            @include ForText($colorWhite, 25px, 'Montserrat', 300);
+          }
+        }*/ }
+        .News .NewsMain .NewsMainSpecial .NewsMainSpecialArticle .NewsMainSpecialArticleTitle {
+          float: left;
+          width: 100%;
+          height: 60%;
+          background: none; }
+          .News .NewsMain .NewsMainSpecial .NewsMainSpecialArticle .NewsMainSpecialArticleTitle h1 {
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 60px;
+            font-family: "Raleway";
+            weight: 300; }
+        .News .NewsMain .NewsMainSpecial .NewsMainSpecialArticle .NewsMainSpecialArticleBtn {
+          float: left;
+          width: 100%;
+          height: 40%;
+          background: none; }
+          .News .NewsMain .NewsMainSpecial .NewsMainSpecialArticle .NewsMainSpecialArticleBtn input {
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 45px;
+            font-family: "Montserrat";
+            weight: 300;
+            width: 100%;
+            height: 100px;
+            background: #5500ff;
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+            .News .NewsMain .NewsMainSpecial .NewsMainSpecialArticle .NewsMainSpecialArticleBtn input:hover {
+              -webkit-transform: scale(0.9);
+              -ms-transform: scale(0.9);
+              transform: scale(0.9);
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease; }
+
+.Article {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: #3d3d3d; }
+  .Article .ArticleSpecial {
+    float: left;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    background: #565656; }
+    .Article .ArticleSpecial .ArticleSpecialTitle {
+      float: left;
+      width: 100%;
+      height: 20%;
+      background: #1d1d1d; }
+      .Article .ArticleSpecial .ArticleSpecialTitle h1 {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 45px;
+        font-family: "Raleway";
+        weight: 300; }
+    .Article .ArticleSpecial .ArticleSpecialBody {
+      float: left;
+      width: 100%;
+      height: 50%;
+      background: none; }
+      .Article .ArticleSpecial .ArticleSpecialBody h3 {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 55px;
+        font-family: "Montserrat";
+        weight: 300; }
+    .Article .ArticleSpecial .ArticleSpecialDate {
+      float: left;
+      width: 100%;
+      height: 15%;
+      background: #999; }
+      .Article .ArticleSpecial .ArticleSpecialDate h4 {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 35px;
+        font-family: "Raleway";
+        weight: 300; }
+    .Article .ArticleSpecial .ArticleSpecialUser {
+      float: left;
+      width: 100%;
+      height: 15%;
+      background: #1d1d1d; }
+      .Article .ArticleSpecial .ArticleSpecialUser h5 {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 35px;
+        font-family: "Raleway";
+        weight: 300; }
+    .Article .ArticleSpecial .ArticleSpecialComments {
+      float: left;
+      width: 100%;
+      height: 100%;
+      background: #9c9c9c; }
+      .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsInputs {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        height: 100%;
+        background: #010101; }
+        .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsInputs input {
+          float: left;
+          width: 80%;
+          height: 50px;
+          margin-left: 10%;
+          margin-top: 10px;
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 35px;
+          font-family: "Raleway";
+          weight: 300;
+          background: #000;
+          border: 1px solid silver;
+          border-radius: 5px;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsInputs input:focus {
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+            border-color: #c4c4c4; }
+        .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsInputs textarea {
+          float: left;
+          width: 80%;
+          height: 100px;
+          margin-left: 10%;
+          margin-top: 10px;
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 35px;
+          font-family: "Raleway";
+          weight: 300;
+          background: #000;
+          border: 1px solid silver;
+          border-radius: 5px;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsInputs textarea:focus {
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+            border-color: #c4c4c4; }
+        .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsInputs .ArticleSpecialCommentsInputsBtn {
+          float: left;
+          width: 100%;
+          height: 100px;
+          background: none;
+          margin-bottom: 15px; }
+          .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsInputs .ArticleSpecialCommentsInputsBtn input {
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 45px;
+            font-family: "Montserrat";
+            weight: 300;
+            width: 100%;
+            height: 100px;
+            background: #5500ff;
+            margin-left: 0%;
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+            .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsInputs .ArticleSpecialCommentsInputsBtn input:hover {
+              -webkit-transform: scale(0.9);
+              -ms-transform: scale(0.9);
+              transform: scale(0.9);
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease; }
+      .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBtn {
+        float: left;
+        width: 100%;
+        height: 100px;
+        background: none; }
+        .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBtn input {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 45px;
+          font-family: "Montserrat";
+          weight: 300;
+          width: 100%;
+          height: 100px;
+          background: #5500ff;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBtn input:hover {
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+      .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBlock {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBlock .ArticleSpecialCommentsBlockComment {
+          float: left;
+          width: 98%;
+          height: auto;
+          padding: 1%;
+          background: #9d9d9d; }
+          .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBlock .ArticleSpecialCommentsBlockComment .ArticleSpecialCommentsBlockCommentUser {
+            float: left;
+            width: 100%;
+            height: 20%;
+            background: #888; }
+            .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBlock .ArticleSpecialCommentsBlockComment .ArticleSpecialCommentsBlockCommentUser h3 {
+              text-align: center;
+              color: #f1f1f1;
+              font-size: 35px;
+              font-family: "Raleway";
+              weight: 300; }
+          .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBlock .ArticleSpecialCommentsBlockComment .ArticleSpecialCommentsBlockCommentText {
+            float: left;
+            width: 100%;
+            height: 60%;
+            background: #555; }
+            .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBlock .ArticleSpecialCommentsBlockComment .ArticleSpecialCommentsBlockCommentText h4 {
+              text-align: center;
+              color: #f1f1f1;
+              font-size: 30px;
+              font-family: "Montserrat";
+              weight: 300; }
+          .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBlock .ArticleSpecialCommentsBlockComment .ArticleSpecialCommentsBlockCommentDate {
+            float: left;
+            width: 100%;
+            height: 20%;
+            background: #111; }
+            .Article .ArticleSpecial .ArticleSpecialComments .ArticleSpecialCommentsBlock .ArticleSpecialCommentsBlockComment .ArticleSpecialCommentsBlockCommentDate h5 {
+              text-align: center;
+              color: #f1f1f1;
+              font-size: 25px;
+              font-family: "Raleway";
+              weight: 300; }
+
+.SignUp {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .SignUp .SignUpMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .SignUp .SignUpMain .SignUpMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #333;
+      /*.SignUpMainSpecialUser {
+        float: left;
+        width: 98%;
+        height: auto;
+        background: #2d2d2d;
+        padding: 1%;
+        border-top: 1px solid silver;
+
+        .SignUpMainSpecialUserFL {
+          float: left;
+          width: 55%;
+          height: auto;
+          background: none;
+
+          p {
+            float: left;
+            margin-left: 10px;
+            @include ForText($colorWhite, 40px, 'Raleway', 300);
+          }
+        }
+
+        .SignUpMainSpecialUserBtn {
+          float: right;
+          width: 45%;
+          height: auto;
+          margin-top: 1%;
+          background: none;
+
+          input {
+            text-align: center;
+            @include ForText($colorWhite, 45px, 'Raleway', 300);
+            width: 100%;
+            height: 100%;
+            background: #5500ff;
+            transition: $transitionText;
+
+            &:hover {
+              transform: scale(0.9);
+              transition: $transitionText;
+            }
+          }
+        }
+      }
+
+      .SignUpMainSpecialHello {
+        float: left;
+        width: 60%;
+        margin-left: 20%;
+        height: auto;
+        background: #777;
+
+        h1 {
+          text-align: center;
+          @include ForText($colorWhite, 55px, 'Raleway', 300);
+        }
+      }*/ }
+      .SignUp .SignUpMain .SignUpMainSpecial .SignUpMainSpecialInputs {
+        float: left;
+        width: 60%;
+        margin-left: 20%;
+        height: 100%;
+        background: #777; }
+        .SignUp .SignUpMain .SignUpMainSpecial .SignUpMainSpecialInputs input {
+          float: left;
+          width: 80%;
+          margin-left: 10%;
+          height: 50px;
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 35px;
+          font-family: "Raleway";
+          weight: 300;
+          background: #000;
+          border: 1px solid silver;
+          border-radius: 5px;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .SignUp .SignUpMain .SignUpMainSpecial .SignUpMainSpecialInputs input:focus {
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+            border-color: #c4c4c4; }
+    .SignUp .SignUpMain .SignUpMainBtn {
+      float: left;
+      width: 100%;
+      height: 100px;
+      background: none; }
+      .SignUp .SignUpMain .SignUpMainBtn input {
+        text-align: center;
+        color: #f1f1f1;
+        font-size: 45px;
+        font-family: "Raleway";
+        weight: 300;
+        width: 100%;
+        height: 100px;
+        background: #5500ff;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .SignUp .SignUpMain .SignUpMainBtn input:hover {
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+
+.SignIn {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .SignIn .SignInMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .SignIn .SignInMain .SignInMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #7d7d7d;
+      /*.SignInMainSpecialHello {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none;
+
+        h1 {
+          text-align: center;
+          @include ForText($colorWhite, 55px, 'Raleway', 300);
+        }
+      }
+
+      .SignInMainSpecialUser {
+        float: left;
+        width: 98%;
+        height: auto;
+        background: #3d3d3d;
+        padding: 1%;
+        border-top: 1px solid silver;
+
+        .SignInMainSpecialUserFL {
+          float: left;
+          width: 50%;
+          height: auto;
+          background: none;
+
+          p {
+            float: left;
+            margin-left: 10px;
+            @include ForText($colorWhite, 40px, 'Raleway', 300);
+          }
+        }
+
+        .SignInMainSpecialUserBtn {
+          float: right;
+          width: 45%;
+          height: 100%;
+          background: none;
+
+          input {
+            text-align: center;
+            @include ForText($colorWhite, 45px, 'Raleway', 300);
+            width: 100%;
+            height: 80%;
+            background: #5500ff;
+            transition: $transitionText;
+
+            &:hover {
+              transform: scale(0.9);
+              transition: $transitionText;
+            }
+          }
+        }
+      }*/ }
+      .SignIn .SignInMain .SignInMainSpecial .SignInMainSpecialInputs {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        height: auto;
+        background: #4d4d4d; }
+        .SignIn .SignInMain .SignInMainSpecial .SignInMainSpecialInputs .SignInMainSpecialInputsBtn {
+          float: left;
+          width: 100%;
+          height: 100px;
+          background: none; }
+          .SignIn .SignInMain .SignInMainSpecial .SignInMainSpecialInputs .SignInMainSpecialInputsBtn input {
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 45px;
+            font-family: "Raleway";
+            weight: 300;
+            width: 80%;
+            height: 100px;
+            background: #5500ff;
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+            .SignIn .SignInMain .SignInMainSpecial .SignInMainSpecialInputs .SignInMainSpecialInputsBtn input:hover {
+              -webkit-transform: scale(0.9);
+              -ms-transform: scale(0.9);
+              transform: scale(0.9);
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease; }
+        .SignIn .SignInMain .SignInMainSpecial .SignInMainSpecialInputs input {
+          float: left;
+          width: 80%;
+          margin-left: 10%;
+          height: 50px;
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 35px;
+          font-family: "Raleway";
+          weight: 300;
+          background: #000;
+          border: 1px solid silver;
+          border-radius: 5px;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .SignIn .SignInMain .SignInMainSpecial .SignInMainSpecialInputs input:focus {
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9);
+            border-color: #c4c4c4; }
+
+.UserInterface {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .UserInterface .UserInterfaceMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .UserInterface .UserInterfaceMain .UserInterfaceMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #999; }
+      .UserInterface .UserInterfaceMain .UserInterfaceMainSpecial .UserInterfaceMainSpecialUser {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .UserInterface .UserInterfaceMain .UserInterfaceMainSpecial .UserInterfaceMainSpecialUser .UserInterfaceMainSpecialUserHeader {
+          float: left;
+          width: 100%;
+          height: auto;
+          background: #111; }
+          .UserInterface .UserInterfaceMain .UserInterfaceMainSpecial .UserInterfaceMainSpecialUser .UserInterfaceMainSpecialUserHeader h1 {
+            float: left;
+            margin-left: 10px;
+            color: #f1f1f1;
+            font-size: 50px;
+            font-family: "Raleway";
+            weight: 300; }
+        .UserInterface .UserInterfaceMain .UserInterfaceMainSpecial .UserInterfaceMainSpecialUser .UserInterfaceMainSpecialUserText {
+          float: left;
+          width: 100%;
+          height: auto;
+          background: none; }
+          .UserInterface .UserInterfaceMain .UserInterfaceMainSpecial .UserInterfaceMainSpecialUser .UserInterfaceMainSpecialUserText p {
+            float: left;
+            margin-left: 10px;
+            width: 97%;
+            padding: 1%;
+            height: 50px;
+            border-bottom: 1px solid silver;
+            color: #f1f1f1;
+            font-size: 35px;
+            font-family: "Raleway";
+            weight: 300; }
+        .UserInterface .UserInterfaceMain .UserInterfaceMainSpecial .UserInterfaceMainSpecialUser .UserInterfaceMainSpecialUserBtn {
+          float: left;
+          width: 100%;
+          height: 100px;
+          background: none; }
+          .UserInterface .UserInterfaceMain .UserInterfaceMainSpecial .UserInterfaceMainSpecialUser .UserInterfaceMainSpecialUserBtn input {
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 45px;
+            font-family: "Raleway";
+            weight: 300;
+            width: 100%;
+            height: 100px;
+            background: #5500ff;
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+            .UserInterface .UserInterfaceMain .UserInterfaceMainSpecial .UserInterfaceMainSpecialUser .UserInterfaceMainSpecialUserBtn input:hover {
+              -webkit-transform: scale(0.9);
+              -ms-transform: scale(0.9);
+              transform: scale(0.9);
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease; }
+
+.AddArticle {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .AddArticle .AddArticleMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: #898b8e; }
+    .AddArticle .AddArticleMain .AddArticleMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: none; }
+      .AddArticle .AddArticleMain .AddArticleMainSpecial .AddArticleMainSpecialForm {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .AddArticle .AddArticleMain .AddArticleMainSpecial .AddArticleMainSpecialForm .AddArticleMainSpecialFormPart {
+          float: left;
+          width: 50%;
+          height: auto;
+          background: none; }
+          .AddArticle .AddArticleMain .AddArticleMainSpecial .AddArticleMainSpecialForm .AddArticleMainSpecialFormPart input {
+            float: left;
+            width: 80%;
+            height: 50px;
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 35px;
+            font-family: "Raleway";
+            weight: 300;
+            background: #000;
+            border: 1px solid silver;
+            border-radius: 5px;
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+            .AddArticle .AddArticleMain .AddArticleMainSpecial .AddArticleMainSpecialForm .AddArticleMainSpecialFormPart input:focus {
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+              -webkit-transform: scale(0.9);
+              -ms-transform: scale(0.9);
+              transform: scale(0.9);
+              border-color: #c4c4c4; }
+          .AddArticle .AddArticleMain .AddArticleMainSpecial .AddArticleMainSpecialForm .AddArticleMainSpecialFormPart select {
+            float: left;
+            width: 80%;
+            height: 50px;
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 35px;
+            font-family: "Raleway";
+            weight: 300;
+            background: #000;
+            border: 1px solid silver;
+            border-radius: 5px; }
+          .AddArticle .AddArticleMain .AddArticleMainSpecial .AddArticleMainSpecialForm .AddArticleMainSpecialFormPart textarea {
+            float: left;
+            width: 80%;
+            height: 100px;
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 35px;
+            font-family: "Raleway";
+            weight: 300;
+            background: #000;
+            border: 1px solid silver;
+            border-radius: 5px;
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+            .AddArticle .AddArticleMain .AddArticleMainSpecial .AddArticleMainSpecialForm .AddArticleMainSpecialFormPart textarea:focus {
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+              -webkit-transform: scale(0.9);
+              -ms-transform: scale(0.9);
+              transform: scale(0.9);
+              border-color: #c4c4c4; }
+        .AddArticle .AddArticleMain .AddArticleMainSpecial .AddArticleMainSpecialForm .AddArticleMainSpecialFormBtn {
+          float: left;
+          width: 100%;
+          height: auto;
+          background: none;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+          .AddArticle .AddArticleMain .AddArticleMainSpecial .AddArticleMainSpecialForm .AddArticleMainSpecialFormBtn input {
+            float: left;
+            width: 100%;
+            background: url("../img/ElementForAAP.jpg") no-repeat center center;
+            height: auto;
+            padding: 1%;
+            color: #f1f1f1;
+            font-size: 35px;
+            font-family: "Raleway";
+            weight: 300; }
+          .AddArticle .AddArticleMain .AddArticleMainSpecial .AddArticleMainSpecialForm .AddArticleMainSpecialFormBtn:hover {
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+            -webkit-transform: scale(0.9);
+            -ms-transform: scale(0.9);
+            transform: scale(0.9); }
+
+.Success2 {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .Success2 .Success2Main {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .Success2 .Success2Main .Success2MainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #7e7e7e; }
+      .Success2 .Success2Main .Success2MainSpecial .Success2MainSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Success2 .Success2Main .Success2MainSpecial .Success2MainSpecialText span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 35px;
+          font-family: "Raleway";
+          weight: 300; }
+      .Success2 .Success2Main .Success2MainSpecial .Success2MainSpecialBtn {
+        float: left;
+        width: 100%;
+        height: 100px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        background: #5500ff;
+        border: 1px solid silver;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+        .Success2 .Success2Main .Success2MainSpecial .Success2MainSpecialBtn span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 45px;
+          font-family: "Montserrat";
+          weight: 300;
+          margin-top: 55px; }
+        .Success2 .Success2Main .Success2MainSpecial .Success2MainSpecialBtn:hover {
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
+
+.AllUsers {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .AllUsers .AllUsersMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .AllUsers .AllUsersMain .AllUsersMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #7e8e9e; }
+      .AllUsers .AllUsersMain .AllUsersMainSpecial .AllUsersMainSpecialUsers {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .AllUsers .AllUsersMain .AllUsersMainSpecial .AllUsersMainSpecialUsers .AllUsersMainSpecialUsersHello {
+          float: left;
+          width: 100%;
+          height: auto;
+          background: none; }
+          .AllUsers .AllUsersMain .AllUsersMainSpecial .AllUsersMainSpecialUsers .AllUsersMainSpecialUsersHello h1 {
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 55px;
+            font-family: "Raleway";
+            weight: 300; }
+        .AllUsers .AllUsersMain .AllUsersMainSpecial .AllUsersMainSpecialUsers .AllUsersMainSpecialUsersUser {
+          float: left;
+          width: 100%;
+          height: 100px;
+          background: #3d3d3d;
+          border-top: 1px solid silver; }
+          .AllUsers .AllUsersMain .AllUsersMainSpecial .AllUsersMainSpecialUsers .AllUsersMainSpecialUsersUser .AllUsersMainSpecialUsersUserIFL {
+            float: left;
+            width: 50%;
+            height: 100%;
+            background: none; }
+            .AllUsers .AllUsersMain .AllUsersMainSpecial .AllUsersMainSpecialUsers .AllUsersMainSpecialUsersUser .AllUsersMainSpecialUsersUserIFL img {
+              float: left;
+              height: 100%;
+              width: 100px; }
+            .AllUsers .AllUsersMain .AllUsersMainSpecial .AllUsersMainSpecialUsers .AllUsersMainSpecialUsersUser .AllUsersMainSpecialUsersUserIFL p {
+              float: left;
+              margin-left: 10px;
+              margin-top: 25px;
+              color: #f1f1f1;
+              font-size: 40px;
+              font-family: "Raleway";
+              weight: 300; }
+          .AllUsers .AllUsersMain .AllUsersMainSpecial .AllUsersMainSpecialUsers .AllUsersMainSpecialUsersUser .AllUsersMainSpecialUsersUserBtn {
+            float: right;
+            width: 45%;
+            height: 100%;
+            background: none; }
+            .AllUsers .AllUsersMain .AllUsersMainSpecial .AllUsersMainSpecialUsers .AllUsersMainSpecialUsersUser .AllUsersMainSpecialUsersUserBtn input {
+              text-align: center;
+              color: #f1f1f1;
+              font-size: 45px;
+              font-family: "Raleway";
+              weight: 300;
+              width: 100%;
+              height: 100%;
+              background: #5500ff;
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease; }
+              .AllUsers .AllUsersMain .AllUsersMainSpecial .AllUsersMainSpecialUsers .AllUsersMainSpecialUsersUser .AllUsersMainSpecialUsersUserBtn input:hover {
+                -webkit-transform: scale(0.9);
+                -ms-transform: scale(0.9);
+                transform: scale(0.9);
+                -webkit-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                transition: all 0.3s ease; }
+
+.ChangeProfile {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .ChangeProfile .ChangeProfileMain {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .ChangeProfile .ChangeProfileMain .ChangeProfileMainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #3c3e3d; }
+      .ChangeProfile .ChangeProfileMain .ChangeProfileMainSpecial .ChangeProfileMainSpecialChangeForm {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .ChangeProfile .ChangeProfileMain .ChangeProfileMainSpecial .ChangeProfileMainSpecialChangeForm .ChangeProfileMainSpecialChangeFormInputs {
+          float: left;
+          width: 80%;
+          margin-left: 10%;
+          height: auto;
+          background: #9d9d9d; }
+          .ChangeProfile .ChangeProfileMain .ChangeProfileMainSpecial .ChangeProfileMainSpecialChangeForm .ChangeProfileMainSpecialChangeFormInputs input {
+            float: left;
+            width: 80%;
+            height: 50px;
+            margin-left: 10%;
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 35px;
+            font-family: "Raleway";
+            weight: 300;
+            background: #000;
+            border: 1px solid silver;
+            border-radius: 5px;
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+            .ChangeProfile .ChangeProfileMain .ChangeProfileMainSpecial .ChangeProfileMainSpecialChangeForm .ChangeProfileMainSpecialChangeFormInputs input:focus {
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+              -webkit-transform: scale(0.9);
+              -ms-transform: scale(0.9);
+              transform: scale(0.9);
+              border-color: #c4c4c4; }
+        .ChangeProfile .ChangeProfileMain .ChangeProfileMainSpecial .ChangeProfileMainSpecialChangeForm .ChangeProfileMainSpecialChangeFormBtn {
+          float: right;
+          width: 100%;
+          height: 100px;
+          background: none; }
+          .ChangeProfile .ChangeProfileMain .ChangeProfileMainSpecial .ChangeProfileMainSpecialChangeForm .ChangeProfileMainSpecialChangeFormBtn input {
+            text-align: center;
+            color: #f1f1f1;
+            font-size: 45px;
+            font-family: "Raleway";
+            weight: 300;
+            width: 100%;
+            height: 100%;
+            background: #5500ff;
+            -webkit-transition: all 0.3s ease;
+            -o-transition: all 0.3s ease;
+            transition: all 0.3s ease; }
+            .ChangeProfile .ChangeProfileMain .ChangeProfileMainSpecial .ChangeProfileMainSpecialChangeForm .ChangeProfileMainSpecialChangeFormBtn input:hover {
+              -webkit-transform: scale(0.9);
+              -ms-transform: scale(0.9);
+              transform: scale(0.9);
+              -webkit-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              transition: all 0.3s ease; }
+
+.Success3 {
+  float: left;
+  width: 100%;
+  height: auto;
+  background: none; }
+  .Success3 .Success3Main {
+    float: left;
+    width: 100%;
+    height: auto;
+    background: none; }
+    .Success3 .Success3Main .Success3MainSpecial {
+      float: left;
+      width: 100%;
+      height: auto;
+      background: #7e7e7e; }
+      .Success3 .Success3Main .Success3MainSpecial .Success3MainSpecialText {
+        float: left;
+        width: 100%;
+        height: auto;
+        background: none; }
+        .Success3 .Success3Main .Success3MainSpecial .Success3MainSpecialText span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 35px;
+          font-family: "Raleway";
+          weight: 300; }
+      .Success3 .Success3Main .Success3MainSpecial .Success3MainSpecialBtn {
+        float: left;
+        width: 100%;
+        height: 100px;
+        -webkit-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        background: #5500ff;
+        border: 1px solid silver;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+        .Success3 .Success3Main .Success3MainSpecial .Success3MainSpecialBtn span {
+          text-align: center;
+          color: #f1f1f1;
+          font-size: 45px;
+          font-family: "Montserrat";
+          weight: 300;
+          margin-top: 55px; }
+        .Success3 .Success3Main .Success3MainSpecial .Success3MainSpecialBtn:hover {
+          -webkit-transform: scale(0.9);
+          -ms-transform: scale(0.9);
+          transform: scale(0.9);
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease; }
